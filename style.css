@@ -1,0 +1,10 @@
+/* CSS FILE: looks only */
+body { font-family: sans-serif; background: #f2f4f7; display: flex;
+       justify-content: center; padding-top: 50px; }
+.box { background: #fff; padding: 24px; border-radius: 14px;
+       width: 290px; box-shadow: 0 4px 14px rgba(0,0,0,.1); }
+input, select, button { width: 100%; padding: 12px; margin-top: 12px;
+                        font-size: 16px; border-radius: 8px; box-sizing: border-box; }
+button { background: #2f80ed; color: #fff; border: none; }
+#link { font-size: 13px; word-break: break-all; }
+#meLabel, #status { text-align: center; font-size: 14px; }
