@@ -1,0 +1,29 @@
+<!-- HTML FILE: three screens, script.js shows the right one -->
+<link rel="stylesheet" href="style.css">
+<div class="box">
+  <h2>Quick Signal</h2>
+
+  <!-- Screen 1: create a room (no ?room= in the link) -->
+  <div id="setup" hidden>
+    <input id="names" placeholder="Names, e.g. Sam, Riya, Dev">
+    <button id="create">Create room</button>
+    <p id="link"></p>
+  </div>
+
+  <!-- Screen 2: first visit, pick your name and enter your email -->
+  <div id="join" hidden>
+    <select id="who"></select>
+    <input id="email" type="email" placeholder="Your email">
+    <button id="joinBtn">Join</button>
+  </div>
+
+  <!-- Screen 3: send a signal -->
+  <div id="send" hidden>
+    <p id="meLabel"></p>
+    <select id="preset"></select>
+    <button id="sendBtn">Send</button>
+  </div>
+
+  <p id="status"></p>
+</div>
+<script src="script.js"></script>
